@@ -2,7 +2,6 @@ import tkinter as tk
 from random import randint
 import matplotlib.pyplot as plt
 import numpy as np
-from time import sleep
 
 window = tk.Tk()
 window.wm_title("GraphToss")
@@ -65,7 +64,7 @@ entry.grid(row=0, column=1)
 
 
 # Toss Button.
-btn = tk.Button(master=frm_2, text="toss", command = toss)
+btn = tk.Button(master=frm_2, text="Toss", command = toss)
 btn.grid(row=0, column=0)
 
 # Plot Button.
@@ -73,7 +72,7 @@ btn_1 = tk.Button(master=frm_2, text="Plot", command= plot)
 btn_1.grid(row=0, column=1)
 
 # Reset Button.
-btn_2 = tk.Button(master=frm_2, text="reset", command= reset)
+btn_2 = tk.Button(master=frm_2, text="Reset", command= reset)
 btn_2.grid(row=0, column=2)
 
 
